@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+@font-face {
+    font-family: odin;
+    src: url(/repos/sign-up-form/font/Norse-Bold\(1\).otf);
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -36,18 +43,19 @@ body {
 
 .header {
     position: relative;
-    top: 5rem;
+    top: 11rem;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 1vw;
+    gap: 2vw;
     padding: 1rem 0;
     flex: 0 1 auto;
 }
 
 #logo {
     height: calc(8px + 6vw);
+    align-self: center;
 }
 
 #site-name {
@@ -56,7 +64,12 @@ body {
     padding: 0;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 3rem;
+    font-size: 6rem;
+    font-family: odin;
+}
+
+.right {
+    font-family: "Roboto";
 }
 
 .right .description {
@@ -68,14 +81,15 @@ body {
     flex-direction: column;
 }
 
-.right .description .test {
+.right .description .info {
     margin-top: auto;
     padding-left: 5rem;
     padding-bottom: 2rem;
 }
 
-.test p {
+.info p {
     font-size: 130%;
+    font-weight: 600;
 }
 .right .form {
     background-color: white;
@@ -98,4 +112,27 @@ body {
 .submit button {
     margin: 2rem 2rem 1rem;
     padding: 10px 3rem;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+    font-size: large;
+}
+
+.account {
+    margin: 0 2rem 1rem;
+}
+
+.info :nth-child(2) {
+    margin-top: 0;
+}
+
+.info :nth-child(1) {
+    margin-bottom: 0;
+}
+
+.info {
+    font-size: 1.2rem;
+    margin-right: 100px;
 }
