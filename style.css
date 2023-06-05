@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: odin;
-    src: url(/repos/sign-up-form/font/Norse-Bold\(1\).otf);
+    src: url(./font/Norse-Bold\(1\).otf);
 }
 
 body {
@@ -65,11 +65,11 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 6rem;
-    font-family: odin;
+    font-family: odin, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .right {
-    font-family: "Roboto";
+    font-family: "Roboto", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .right .description {
