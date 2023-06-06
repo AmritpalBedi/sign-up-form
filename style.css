@@ -177,3 +177,8 @@ input {
     width: 70%;
     font-size: 130%;
 }
+
+input:focus:invalid {
+    outline: none;
+    border-color: red;
+}
